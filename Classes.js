@@ -14,7 +14,7 @@
  * + printName(), that print the persons full name  (first name and last name)
  * + calculateAge(currentYear), that takes a number of current year (i.e. 2021), and returns the age of the person
  * + addInterest(newInterest), that takes  a string of a new interest, and adds it to the interest array, and returns back the array
- * after you are done with the class, create at least 3 objects of type Actor of your favorite actors
+ *   after you are done with the class, create at least 3 objects of type Person of your interests
  */
 class Person {
   // continue the code here
