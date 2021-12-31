@@ -4,17 +4,20 @@
  * - lastName: String
  * - gender: String
  * - birthYear: Number
- * - interests: [String]
  *
- * 2. Add the constructor that initializes all properties except the interests array should be empty by default
+ * 2. Add the constructor that initializes all properties
  *
  * 3. Add the following methods
  *
  *
  * + printName(), that print the persons full name  (first name and last name)
- * + calculateAge(currentYear), that takes a number of current year (i.e. 2021), and returns the age of the person
- * + addInterest(newInterest), that takes  a string of a new interest, and adds it to the interest array, and returns back the array
- *   after you are done with the class, create at least 3 objects of type Person of your interests
+ *
+ * + calculateAge(currentYear), that takes a number of current year (i.e. 2021),
+ *   and returns the age of the person
+ *
+ * after you are done with the class, create at least 3 objects of type Person.
+ * print every person's name using the method printName of each object
+ * print out the sum of their ages using calculateAge() method
  */
 class Person {
   // continue the code here
@@ -27,7 +30,7 @@ class Person {
  * - genre
  * - [rating]
  *
- * 2. Add the constructor that initializes all properties except the rating array should be empty by default
+ * 2. Add the constructor that initializes all properties except the rating array, you should not pass it in the constructor method, and just initialize it with empty array.
  *
  * 3. and the following the methods
  * + rate(rating),
