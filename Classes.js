@@ -20,7 +20,19 @@
  * print out the sum of their ages using calculateAge() method
  */
 class Person {
-  // continue the code here
+  constructor(firstname, lastname, gender, birthyear) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.gender = gender;
+    this.birthYear = birthYear;
+  }
+  printName() {
+    console.log(this.firstName);
+    console.log(this.lastName);
+  }
+  calculateAge(currentYear) {
+    return currentYear - this.birthYear;
+  }
 }
 
 /** (Question 2): (15000 Points)
@@ -45,7 +57,7 @@ class Person {
  */
 
 class Movie {
-  // continue the code here
+  classmovie;
 }
 
 /** (Question 3): (1000 Points)
